@@ -1,0 +1,77 @@
+body {
+    background: #2B2B2B;
+    color: #FFF;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 300;
+}
+
+input {
+    text-decoration: none;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(145, 107, 107, 0.12);
+    padding: 0 8px;
+    height: 30px;
+    color: #FFF;
+    display: inline-block;
+    -webkit-transition: all .1s ease-out;
+    -o-transition: all .1s ease-out;
+    transition: all .1s ease-out;
+}
+
+input:hover {
+    background-color:#4d4a4a;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+h2 a {
+    text-decoration: none;
+    color: white;
+}
+
+h2 a:hover {
+    text-decoration: underline;
+}
+
+img {
+    border-radius: 5px;
+}
+
+p {
+    margin-left: 10px;
+    background-color: rgb(45, 49, 49);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+   
+a:visited {
+    color: green;
+    text-decoration: none;
+}
+   
+a:hover {
+    color: gray;
+    text-decoration: underline;
+}
